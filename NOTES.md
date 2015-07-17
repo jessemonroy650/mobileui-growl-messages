@@ -2,8 +2,11 @@
 Date: 2015-07-14
 
 
+
+
 * toggle()
-* message({id:elementId, message:messageString, timeout:timeoutInt, whichClass:type})
+* setMessage({id:elementId, message:messageString, whichClass:type})
+* message({id:elementId, message:messageString, whichClass:type, timeout:timeoutInt})
 * clearTimeout()
 
 ```Message is displayed in the <div id="message" class="message info"></div>```
